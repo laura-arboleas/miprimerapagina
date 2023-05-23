@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Primer Website</title>
+    <LINK REL="stylesheet" type="Text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container-nav"  role="navigation">
+        <nav class="navbar">
+          <a href="#" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="acercaDe.html">acerca de</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+          <button class="button-menu-toggle">Menu</button>
+        </nav>
+
+    </div>
+    <div class="container">
+        <h1>Contacto</h1>
+        <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+        <form id="myForm">
+            <div class="column">
+              <div class="campoNombre">
+                <label for="nombre">Nombre:</label>
+                <input type="Text" id="nombre" name="nombre">
+                
+                <label for="apellido">Apellido:</label>
+                <input type="Text" id="apellido" name="apellido">
+              </div>
+      
+              <div class="campoEmail">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+      
+                <button type="submit">Enviar</button>
+              </div>
+              <div class="subMensaje">
+                <label for="mensaje">mensaje:</label>
+              </div>
+              <div class="campoMensaje">
+                <textarea id="mensaje " name="mensaje"></textarea>
+              </div>
+              <div class="campoPais">
+                <label for="país" name="país">País:</label>
+                <select id="país" name="País">
+                  <option value="argentina">Argentina</option>
+                  <option value="chile">Chile</option>
+                  <option value="mexico">México</option>
+                  <option value="peru">Perú</option>
+                </select>
+                <button id= miboton type="submit"><a href="index.html">Enviar</a></button>
+              </div>
+            </div>
+          </form>
+    </div>
+    </div>
+    
+    <br>
+
+    <script src="script.js"></script>
+</body>
+<!-- ./ = ingresar carpetas -->
+
+</html>
