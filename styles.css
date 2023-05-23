@@ -75,44 +75,6 @@ El selector :nth-child() se usa para seleccionar elementos basados en su posici√
 
 
 
-/* .formulario{
-    display: 50%;
-    margin:auto;
-    border: 2px solid black;
-}
-
-#myForm{
-    display: flex;
-}
-
-  .campoNombre{
-    
-    display: inline-flex;
-    margin: auto;
-    padding: 5px;
-    
- 
-  }
- 
-
-  .campoEmail{
-    display: block;
-    padding: auto;
-  }
-  .subMensaje{
-    display: flex;
-    padding: 5px 80px 10px 240px;
-  }
-  .campoMensaje{
-    display: flex;
-    padding: 10px 50px 100px 180px;
-    flex-direction: column;
-  }
-  .campoPais{
-    display: flex;
-    flex-direction: row-reverse;
-  } */
-
 
 .container-nav {
   display: flex;
@@ -178,18 +140,23 @@ a:hover {
   padding: 0;
   margin: 0;
 }
-main{
+/* main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+} */
+
+.cont_video{
+  width: 100%;
 }
 
-video{
-  width: 1280px;
-  height: 720px;
-  padding: auto;
-  margin: auto;
-
+.cont_img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cont_video video{
+  width: 100%;
 }
 footer{
   display: flex;
@@ -197,15 +164,20 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
 }
-img {
+/* img {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   padding: auto;
   margin: auto;
   padding: 10px 300px 10px 300px;
-}
+} */
 
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 @media (max-width: 768px) {
@@ -246,12 +218,8 @@ img {
     
 
   }
-  
 }
-main{
-  display: flex;
-  flex-direction: column;
-}
+
 @media (max-width: 915px) {
   .imagenes{
     flex-direction: column;
@@ -262,10 +230,10 @@ main{
     display: flex;
     flex-direction: column;
   }
-  video{
+  /* video{
     align-items: column;
     align-items: center;
-  }
+  } */
   footer{
     display: flex;
     text-align: center;
@@ -276,3 +244,44 @@ main{
 .greeting{
   text-align: center;
 }
+
+
+
+
+/* .formulario{
+    display: 50%;
+    margin:auto;
+    border: 2px solid black;
+}
+
+#myForm{
+    display: flex;
+}
+
+  .campoNombre{
+    
+    display: inline-flex;
+    margin: auto;
+    padding: 5px;
+    
+ 
+  }
+ 
+
+  .campoEmail{
+    display: block;
+    padding: auto;
+  }
+  .subMensaje{
+    display: flex;
+    padding: 5px 80px 10px 240px;
+  }
+  .campoMensaje{
+    display: flex;
+    padding: 10px 50px 100px 180px;
+    flex-direction: column;
+  }
+  .campoPais{
+    display: flex;
+    flex-direction: row-reverse;
+  } */
