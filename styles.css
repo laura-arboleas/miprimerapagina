@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
 body {
   background-color: aqua;
   color: purple
@@ -242,6 +248,10 @@ img {
   }
   
 }
+main{
+  display: flex;
+  flex-direction: column;
+}
 @media (max-width: 915px) {
   .imagenes{
     flex-direction: column;
@@ -250,6 +260,7 @@ img {
   }
   main{
     display: flex;
+    flex-direction: column;
   }
   video{
     align-items: column;
